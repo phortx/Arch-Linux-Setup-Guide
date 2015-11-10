@@ -27,7 +27,7 @@ Install yaourt like described in the yaourt [arch linux wiki article](https://wi
 ## 3. Install software
 
 ```
-$ yaourt -S --needed konsole vim git zsh ruby nfs-utils htop openssh autofs libnewt
+$ yaourt -S --needed konsole vim git zsh ruby nfs-utils htop openssh autofs libnewt yakuake kdepim-ktimetracker wget crystal keepassx openvpn etherwake sysstat nodejs jdk vlc lame k3b chromium git-extras agave atom-editor virtualbox maven 
 ```
 
 
@@ -67,7 +67,16 @@ gem install bundler rake
 ```
 
 
-## 6 ZSH and Dotfiles
+## 6 General Stuff
+
+## 6.1 Clean up
+
+```
+$ rm -rf Documents Music Pictures Public Templates Videos examples.desktop
+$ mkdir -p bin
+```
+
+## 6.2 ZSH and Dotfiles
 
 ```
 $ sudo usermod -s /usr/bin/zsh [USERNAME]
