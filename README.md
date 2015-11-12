@@ -45,7 +45,7 @@ Uncomment this line:
 %wheel ALL=(ALL) NOPASSWD: ALL
 ```
 
-### 4.2 Farben für Pacman aktivieren
+### 4.2 Enable colors for pacman
 
 ```
 $ sudo sed -i 's/#Color/Color/'
