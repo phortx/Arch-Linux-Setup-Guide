@@ -71,8 +71,22 @@ $ sudo sed -i 's/#Color/Color/'
 ### 4.3 NTP
 
 ```
-$ systemctl enable ntpd.service
-$ systemctl start ntpd.service
+$ sudo systemctl enable ntpd.service
+$ suod systemctl start ntpd.service
+```
+
+
+### Enable localdomain
+
+```
+$ sudo vim /etc/NetworkManager/dnsmasq.d/localdomain
+```
+
+Write:
+
+```
+server=/localdomain/127.0.0.1
+address=/localdomain/127.0.0.1
 ```
 
 
