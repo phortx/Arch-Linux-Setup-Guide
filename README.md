@@ -26,8 +26,21 @@ Install yaourt like described in the yaourt [arch linux wiki article](https://wi
 
 ## 3. Install software
 
+### 3.1 Kernel: linux-ck
 
-### 3.1 General stuff
+Add
+
+```
+[repo-ck]
+Server = http://repo-ck.com/$arch
+```
+
+to `/etc/pacman.conf` and install the respective package for your cpu:
+
+https://wiki.archlinux.org/index.php/Repo-ck#Selecting_the_correct_CPU_optimized_package
+
+
+### 3.2 General stuff
 ```
 yaourt -Suya
 yaourt -S --needed --noconfirm jre jdk
@@ -42,7 +55,7 @@ $ systemctl enable NetworkManager
 $ systemctl start NetworkManager
 ```
 
-### 3.2 Graphics driver
+### 3.3 Graphics driver
 
 [Here's a nice table what to install](http://www.linuxveda.com/2015/04/20/arch-linux-tutorial-manual/13/)
 
