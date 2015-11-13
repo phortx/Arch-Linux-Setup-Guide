@@ -32,7 +32,7 @@ Install yaourt like described in the yaourt [arch linux wiki article](https://wi
 yaourt -Suya
 yaourt -S --needed --noconfirm jre jdk
 yaourt -S --needed --noconfirm phonon-qt4-vlc
-yaourt -S --needed --noconfirm vim git zsh ruby nfs-utils htop openssh autofs libnewt yakuake wget crystal keepassx openvpn etherwake sysstat nodejs lame k3b chromium git-extras agave atom-editor virtualbox maven kdeartwork kdebase kdegraphics kdemultimedia kdenetwork kdesdk kdeutils plasma-nm gtk-engines gtk2 gtk3 qt4 qt5 breeze-kde4 adobe-source-code-pro-fonts gimp libreoffice-still hunspell hunspell-de hunspell-en rubymine thunderbird firefox
+yaourt -S --needed --noconfirm vim git zsh ruby nfs-utils htop openssh autofs libnewt yakuake wget crystal keepassx openvpn etherwake sysstat nodejs lame k3b chromium git-extras agave atom-editor virtualbox maven kdeartwork kdebase kdegraphics kdemultimedia kdenetwork kdesdk kdeutils plasma-nm gtk-engines gtk2 gtk3 qt4 qt5 breeze-kde4 adobe-source-code-pro-fonts gimp libreoffice-still hunspell hunspell-de hunspell-en rubymine thunderbird firefox owncloud-client
 ```
 
 And make sure `NetworkManager` is enabled:
