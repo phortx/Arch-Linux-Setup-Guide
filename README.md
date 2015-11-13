@@ -26,9 +26,22 @@ Install yaourt like described in the yaourt [arch linux wiki article](https://wi
 
 ## 3. Install software
 
+
+### 3.1 General stuff
 ```
-$ yaourt -S --needed konsole vim git zsh ruby nfs-utils htop openssh autofs libnewt yakuake kdepim-ktimetracker wget crystal keepassx openvpn etherwake sysstat nodejs jdk vlc lame k3b chromium git-extras agave atom-editor virtualbox maven 
+$ yaourt -S --needed vim git zsh ruby nfs-utils htop openssh autofs libnewt yakuake kdepim-ktimetracker wget crystal keepassx openvpn etherwake sysstat nodejs jdk vlc lame k3b chromium git-extras agave atom-editor virtualbox maven kcm-touchpad kdeartwork kdebase kdegraphics kdemultimedia kdenetwork kdeplasma-addons kdesdk kdeutils plasma-nm gtk-engines gtk2 gtk3 qt4 qt5 breeze-kde4 adobe-source-code-pro-fonts gimp libreoffice-still hunspell hunspell-de hunspell-en
 ```
+
+And make sure `NetworkManager` is enabled:
+
+```
+$ systemctl enable NetworkManager
+$ systemctl start NetworkManager
+```
+
+### 3.2 Graphics driver
+
+[Here's a nice table what to install](http://www.linuxveda.com/2015/04/20/arch-linux-tutorial-manual/13/)
 
 
 ## 4. Configs
