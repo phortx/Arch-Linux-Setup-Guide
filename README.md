@@ -35,7 +35,7 @@ Add
 Server = http://repo-ck.com/$arch
 ```
 
-to `/etc/pacman.conf` and install the respective package for your cpu:
+to `/etc/pacman.conf`, sign the key: `sudo pacman-key -r 79BE3E4300411886` and install the respective package for your cpu:
 
 https://wiki.archlinux.org/index.php/Repo-ck#Selecting_the_correct_CPU_optimized_package
 
