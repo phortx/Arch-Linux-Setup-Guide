@@ -41,11 +41,27 @@ https://wiki.archlinux.org/index.php/Repo-ck#Selecting_the_correct_CPU_optimized
 
 
 ### 3.2 General stuff
+
+Read before you copy and paste, there may be stuff, you don't need.
+
 ```
 yaourt -Suya
-yaourt -S --needed --noconfirm jre jdk
+
+# install this one first
 yaourt -S --needed --noconfirm phonon-qt4-vlc
-yaourt -S --needed --noconfirm vim git zsh ruby nfs-utils htop openssh autofs libnewt yakuake wget crystal keepassx openvpn etherwake sysstat nodejs lame k3b chromium git-extras agave atom-editor virtualbox maven kdeartwork kdebase kdegraphics kdemultimedia kdenetwork kdesdk kdeutils plasma-nm gtk-engines gtk2 gtk3 qt4 qt5 breeze-kde4 adobe-source-code-pro-fonts gimp libreoffice-still hunspell hunspell-de hunspell-en rubymine thunderbird firefox owncloud-client
+
+# java
+yaourt -S --needed --noconfirm jre jdk
+
+# basics
+yaourt -S --needed --noconfirm vim git zsh ruby nfs-utils htop openssh autofs libnewt yakuake wget crystal keepassx2 openvpn etherwake sysstat nodejs lame k3b kdeartwork kdebase kdegraphics kdemultimedia kdenetwork kdesdk kdeutils plasma-nm gtk-engines gtk2 gtk3 qt4 qt5 breeze-kde4 adobe-source-code-pro-fonts gimp libreoffice-still aspell-de hunspell hunspell-de hunspell-en thunderbird firefox owncloud-client ksshaskpass corkscrew bind-tools mesa-demos ttf-dejavu ttf-mac-fonts ttf-ms-fonts ttf-google-fonts-git xmlstarlet lshw cvs npm sshfs truecrypt vinagre
+
+# choose one
+yaourt -S --needed --noconfirm chromium
+yaourt -S --needed --noconfirm google-chrome
+
+# development
+yaourt -S --needed --noconfirm git-extras agave atom-editor virtualbox maven rubymine tomcat8 mariadb-clients mariadb  libmariadbclient intellij-idea-ultimate-edition
 ```
 
 And make sure `NetworkManager` is enabled:
