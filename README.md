@@ -44,8 +44,8 @@ https://wiki.archlinux.org/index.php/Repo-ck#Selecting_the_correct_CPU_optimized
 
 Read before you copy and paste, there may be stuff, you don't need.
 
-```
-yaourt -Suya
+```bash
+yaourt -Suyya
 
 # install this one first
 yaourt -S --needed --noconfirm phonon-qt4-vlc
