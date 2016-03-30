@@ -54,14 +54,17 @@ yaourt -S --needed --noconfirm phonon-qt4-vlc
 yaourt -S --needed --noconfirm jre jdk
 
 # basics
-yaourt -S --needed --noconfirm vim git zsh ruby nfs-utils htop openssh autofs libnewt yakuake wget crystal keepassx2 openvpn etherwake sysstat nodejs lame k3b kdeartwork kdebase kdegraphics kdemultimedia kdenetwork kdesdk kdeutils plasma-nm gtk-engines gtk2 gtk3 qt4 qt5 breeze-kde4 adobe-source-code-pro-fonts gimp libreoffice-still aspell-de hunspell hunspell-de hunspell-en thunderbird firefox owncloud-client ksshaskpass corkscrew bind-tools mesa-demos ttf-dejavu ttf-mac-fonts ttf-ms-fonts ttf-google-fonts-git xmlstarlet lshw cvs npm sshfs truecrypt vinagre
+yaourt -S --needed --noconfirm vim git zsh ruby nfs-utils htop openssh autofs libnewt yakuake wget crystal keepassx2 openvpn etherwake sysstat nodejs lame k3b kdeartwork kdebase kdegraphics kdemultimedia kdenetwork kdesdk kdeutils plasma-nm gtk-engines gtk2 gtk3 qt4 qt5 breeze-kde4 adobe-source-code-pro-fonts gimp libreoffice-still aspell-de hunspell hunspell-de hunspell-en thunderbird firefox owncloud-client ksshaskpass corkscrew bind-tools mesa-demos ttf-dejavu ttf-mac-fonts ttf-ms-fonts ttf-google-fonts-git xmlstarlet lshw cvs npm sshfs truecrypt vinagre oh-my-zsh zsh-syntax-highlighting tk x11vnc pyqt5-common python-pyqt5 winetricks lshw
 
 # choose one
 yaourt -S --needed --noconfirm chromium
 yaourt -S --needed --noconfirm google-chrome
 
 # development
-yaourt -S --needed --noconfirm git-extras agave atom-editor virtualbox maven rubymine tomcat8 mariadb-clients mariadb  libmariadbclient intellij-idea-ultimate-edition
+yaourt -S --needed --noconfirm git-extras agave atom-editor virtualbox maven rubymine tomcat8 mariadb-clients mariadb  libmariadbclient intellij-idea-ultimate-edition postgresql meteor-js ansible curlftpfs
+
+# Minecraft
+yaourt -S --needed --noconfirm aur/magiclauncher aur/mcpatcher aur/minecraft
 ```
 
 And make sure `NetworkManager` is enabled:
